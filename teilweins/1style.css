@@ -1,0 +1,33 @@
+body {
+
+    background-image: url(dark.jpg);
+    background-size: cover;
+}
+
+h1 {
+    background-color: gray;
+    border: 30px solid gray;
+    border-radius: 30px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    border: 3px solid gray;
+    background-color: rgba(128, 128, 128, 0.941);
+    color: darkgoldenrod;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-right: 810px;
+}
